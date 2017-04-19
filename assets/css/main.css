@@ -1,52 +1,55 @@
-/* div 1 */
-#abuelo {
+* {
+  margin: 0;
+}
+
+body{
+    background-color: #EBEBEB;
+}
+
+header {
+  background-color: black;
+  height: 55px;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}
+
+.abuelo {
   width: 200px;
   height: 200px;
   position: relative;
-  background: red;
+  background: #E9BCB7;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 15px;
+}
+.abuelo2 {
+  margin-top: 10px;
+  background-color: #320E3B;
 }
 
-#hijoPapa {
+.hijoPapa {
   width: 100px;
   height: 100px;
   position: absolute;
   margin-left: 25%;
   margin-top: 25%;
-  background: black;
+  background: #29524A;
+}
+.hijoPapa2 {
+  background-color: yellow;
 }
 
-#hijito {
+.hijito {
   width: 50px;
   height: 50px;
   position: absolute;
-  background: green;
+  background: #C5AFA0;
 }
-
-/* div 2 */
-#abuelo2 {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  background: red;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-#hijoPapa2 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  margin-left: 25%;
-  margin-top: 25%;
-  position: absolute;
-  background: black;
-}
-
-#hijito2 {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  background: green;
+.hijito2 {
+  background: #4C2A85;
 }
